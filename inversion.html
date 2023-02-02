@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="img/nucbank-azul.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nucbank | Inversiones</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <aside>
+            <header>
+                <a class="logo-wrapper" href="index.html">Nucbank</a>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i
+                                class="bi bi-hand-index-thumb-fill"></i>Todos
+                            los productos financieros</button>
+                    </li>
+                    <li>
+                        <button id="monedas" class="boton-menu boton-categoria"><i
+                                class="bi bi-hand-index-thumb"></i>Moneda
+                            extranjera</button>
+                    </li>
+                    <li>
+                        <button id="bonos-acciones" class="boton-menu boton-categoria"><i
+                                class="bi bi-hand-index-thumb"></i>Bonos y
+                            Acciones</button>
+                    </li>
+                    <li>
+                        <button id="fci" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Fondos
+                            Comunes
+                            de Inversión</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="carrito.html">
+                            <i class="bi bi-bag-fill"></i>Invertir ahora<span id="numerito" class="'numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <footer>
+                <p class="texto-footer">© 2023 by Andrea Berardi</p>
+            </footer>
+        </aside>
+
+        <main class="main-inversiones">
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos financieros financieros</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- Esto se rellena con JS -->
+            </div>
+
+        </main>
+    </div>
+
+    <script src="./js/inversion.js"></script>
+</body>
+
+</html>
