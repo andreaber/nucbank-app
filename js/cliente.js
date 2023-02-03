@@ -9,7 +9,7 @@
 
 const cuenta1 = {
   titular: 'Javier Scheider',
-  movimientos: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
+  movimientos: [2000, 4550.23, -3060.5, 25000, -6420.21, -1330.9, 7900.97, 13000],
   tasaInteres: 1.2, // %
   pin: 1111,
 
@@ -29,7 +29,7 @@ const cuenta1 = {
 
 const cuenta2 = {
   titular: 'Camila Dávila',
-  movimientos: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
+  movimientos: [5000, 34000, -1500, -7900, -3210, -10000, 85000, -3000],
   tasaInteres: 1.5,
   pin: 2222,
 
@@ -49,14 +49,14 @@ const cuenta2 = {
 
 const cuenta3 = {
   titular: 'Sergio Marucci',
-  movimientos: [200, -200, 340, -300, -20, 50, 400, -460],
+  movimientos: [20000, -2000, 3400, -3000, -2000, 5000, 4000, -4600],
   tasaInteres: 0.7,
   pin: 3333,
 };
 
 const cuenta4 = {
   titular: 'Valentina Lestarpe',
-  movimientos: [430, 1000, 700, 50, 90],
+  movimientos: [43000, 10000, 7000, 500, 9000],
   tasaInteres: 1,
   pin: 4444,
 };
