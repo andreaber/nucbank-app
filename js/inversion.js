@@ -9,7 +9,7 @@ const productos = [
             nombre: "Monedas Extranjeras",
             id: "monedas"
         },
-        precio: 0.0052
+        precio: 195
     },
     {
         id: "euros",
@@ -19,7 +19,7 @@ const productos = [
             nombre: "Monedas Extranjeras",
             id: "monedas"
         },
-        precio: 0.0047
+        precio: 203.10
     },
     {
         id: "reales",
@@ -29,7 +29,7 @@ const productos = [
             nombre: "Monedas Extranjeras",
             id: "monedas"
         },
-        precio: 0.0242
+        precio: 36.51
     },
     {
         id: "libras",
@@ -39,7 +39,7 @@ const productos = [
             nombre: "Monedas Extranjeras",
             id: "monedas"
         },
-        precio: 0.0042
+        precio: 225.94
     },
     {
         id: "yuanes",
@@ -49,7 +49,7 @@ const productos = [
             nombre: "Monedas Extranjeras",
             id: "monedas"
         },
-        precio: 0.0344
+        precio: 6.78
     },
     // Bonos y Acciones
     {

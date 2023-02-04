@@ -680,6 +680,7 @@ body .cliente {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 2rem;
     padding: 0 2rem;
 }
 
@@ -703,7 +704,7 @@ body .cliente {
 }
 
 .logo {
-    height: 12rem;
+    height: 6rem;
 }
 
 .login {
