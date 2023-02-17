@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="shortcut icon" href="img/nucbank-azul.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-    <title>Nucbank | Portfolio de Productos Financieros</title>
+    <title>Nucbank | Portfolio Personal de Inversiones</title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 
         <aside>
             <header>
-                <a class="logo-wrapper" href="index.html">Nucbank</a>
+                <a href="index.html"><img src="img/nucbank-blanco.png" alt="Nucbank logo" class="logo-wrapper"></a>
             </header>
 
             <nav>
@@ -38,18 +38,17 @@
             </nav>
 
             <footer>
-                <p class="texto-footer">© 2023 by Andrea Berardi</p>
+                <p class="texto-footer">&copy; Copyright by Nucbank</p>
             </footer>
         </aside>
 
         <main class="main-inversiones">
             <h2 class="titulo-principal">Portfolio de Inversiones</h2>
             <div id="contenedor-productos" class="contenedor-carrito">
-                <p id="carrito-vacio" class="carrito-vacio">Tu portfolio de inversiones aún está vacío. <i
-                        class="bi bi-emoji-frown"></i></p>
+                <p id="carrito-vacio" class="carrito-vacio">Tu portfolio de inversiones aún está vacío.</p>
 
                 <div id="carrito-productos" class="carrito-productos disabled">
-                    <!-- Esto se va a completar con el JS -->
+                    <!-- Se completa con JS -->
                 </div>
 
                 <div id="carrito-acciones" class="carrito-acciones disabled">
@@ -65,13 +64,15 @@
                     </div>
                 </div>
 
-                <p id="carrito-comprado" class="carrito-comprado disabled">¡Excelente inversión! Muchas gracias confiar
-                    en Nucbank. <i class="bi bi-emoji-laughing"></i></p>
+                <p id="carrito-comprado" class="carrito-comprado disabled">¡Excelente inversión! Muchas gracias por
+                    confiar en Nucbank.</p>
 
             </div>
         </main>
     </div>
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./js/carrito.js"></script>
 </body>
 
