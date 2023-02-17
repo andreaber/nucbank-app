@@ -13,8 +13,9 @@
 
 <body class="cliente">
   <nav class="nav-cliente">
-    <img src="img/nucbank-1.png" alt="Logo" class="logo" />
-    <a class="home" href="index.html">Home</a>
+    <!-- <img src="img/nucbank-1.png" alt="Logo" class="logo" />
+    <a class="home" href="index.html">Home</a> -->
+    <a href="index.html"><img src="img/nucbank-1.png" alt="Nucbank logo" class="logo"></a>
     <p class="bienvenido">Inicia sesión para empezar</p>
     <form class="login">
       <input type="text" placeholder="user" class="login__input login__input--user" />
@@ -101,8 +102,33 @@
     </p>
   </main>
 
-  <footer>
-    &copy; Copyright by Nucbank
+
+  <footer class="footer">
+    <ul class="footer__nav">
+      <li class="footer__item">
+        <a class="footer__link" href="#">Sobre Nosotros</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Precios</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Términos & Condiciones</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Política de Privacidad</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Blog</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Contáctanos</a>
+      </li>
+    </ul>
+    <img src="img/nucbank-2.png" alt="Logo" class="footer__logo" />
+    <p class="footer__copyright">
+      &copy; 2023 | Hecho con ♥️ by
+      <a class="footer__link twitter-link" target="_blank" href="https://twitter.com/berardi_andrea">Nucbank</a>.
+    </p>
   </footer>
 
   <script src="js/cliente.js"></script>

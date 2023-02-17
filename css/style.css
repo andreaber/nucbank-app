@@ -591,6 +591,12 @@ h4 {
     text-align: center;
 }
 
+.footer__copyright--inversion {
+    font-size: 1.4rem;
+    color: #aaa;
+    text-align: left;
+}
+
 .footer__copyright .footer__link {
     font-size: 1.4rem;
 }
@@ -761,7 +767,7 @@ body .cliente {
 .app {
     position: relative;
     max-width: 100rem;
-    margin: 4rem auto;
+    margin: 4rem auto 7rem;
     display: grid;
     grid-template-columns: 4fr 3fr;
     grid-template-rows: auto repeat(3, 15rem) auto;
